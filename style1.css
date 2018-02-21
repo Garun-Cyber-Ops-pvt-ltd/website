@@ -1,0 +1,18 @@
+      dl{color: violet}
+      th{color: blue;background-color: yellow}
+      td{color: green;background-color: pink}
+      h2{color: blue}
+
+      .divclass{
+        margin-left: 100;
+        color: red;
+        background-color: green;
+      }
+
+
+      .tableclass{
+        margin-left: 10;
+        width: 20;
+        background-color: gray;
+
+      }
