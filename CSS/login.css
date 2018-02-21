@@ -1,0 +1,51 @@
+  h2{
+    margin-left: 70px;
+  }
+  #d1{
+    color: red;
+  }
+
+.background{
+  color: red;
+  width: 1347px;
+  height: 640px;
+  background: url(../imgs/hackerface.png);
+  background-size: 1347px 650px;
+  margin: 1px;
+  float: left;
+}
+  .loginbox{
+    padding-left: 50px;
+    width: 400px;
+    height: 140px;
+    float: left;
+    margin-left: 470px;
+    margin-top: 450px;
+    color: green;
+    background-size: 400px 100px;
+  }
+
+input{
+  color: Transparent;
+  background-color: Transparent;
+}
+
+input:hover{
+  background-color: black;
+}
+input:active{
+  background-color: Transparent;
+}
+
+ #button{
+   color: Transparent;
+   background-color: Transparent;
+   border: none;
+   display: inline-block;
+
+ }
+
+ #button:hover{
+   color: green;
+   background-color: black;
+ }
