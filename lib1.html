@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>library</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {box-sizing: border-box;}
+body {
+        margin: 10px;
+		background-color:black;
+		font-style: oblique;
+	 }
+.header {
+         padding: 5px;
+		 height:auto;
+	     color: white; 
+		 text-shadow: 8px 8px 15px black, 0 0 25px white, 0 0 25px white;
+		 font-style: oblique;
+		 box-shadow: 10px 8px 15px 10px white, 0 0 30px white, 0 0 30px white;
+	     }
+*{box }		
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  box-shadow: 10px 8px 15px 5px white, 0 0 30px white, 0 0 30px white;
+}
+*{box-button}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+*{button background at active}
+.topnav a:hover {
+  background-color:white;
+  color: blue;
+}
+*{home button at active}
+.topnav a.active {
+  background-color:white;
+  color: blue;
+}
+*{search-container-box position}
+.topnav .search-container {
+  float:right;
+}
+*{search-container-box size & spacing}
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+*{search-container-button }
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: blue;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: white;
+  color:blue;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid black;  
+  }
+}				
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src="C:\Users\Acer\Desktop\New folder\library\img3.png" alt="headerbg" style="width:100%;height:200px;">			 
+</div>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">book list</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search Book's.." name="search">
+      <button type="submit"><i>Search Book's</i></button>
+    </form>
+  </div>
+   <a href="#about">log in / sign up</a>
+</div>
+</body>
+</html>	
